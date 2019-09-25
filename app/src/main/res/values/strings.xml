@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="comments">Comments</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Send</string>
+</resources>

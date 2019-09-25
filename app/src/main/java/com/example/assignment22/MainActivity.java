@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     Button submitBtn, resetBtn;
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         comments = (EditText) findViewById(R.id.comments);
         submitBtn = (Button) findViewById(R.id.submitBtn);
         resetBtn = (Button) findViewById(R.id.resetBtn);
+        ImageView logoView=(ImageView) findViewById(R.id.imageView);
+        logoView.setImageResource(R.drawable.logo);
 
         resetBtn.setOnClickListener(new View.OnClickListener() {
             @Override
